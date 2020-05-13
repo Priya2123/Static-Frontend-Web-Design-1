@@ -14,3 +14,7 @@
 ![5](https://user-images.githubusercontent.com/55858346/81782539-97b17f80-9517-11ea-9c00-41c553f2cdd1.PNG)
 ![6](https://user-images.githubusercontent.com/55858346/81782559-9f712400-9517-11ea-9cf7-41fa61acfbb4.PNG)
 
+
+### Contributing <br/>
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
