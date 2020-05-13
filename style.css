@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu");
+
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Lato';
+}
+.navbar-brand{
+    font-family: 'Pacifico';
+    font-size: 35px;
+    color: blue !important;
+}
+.nav-link{
+    font-size: 16px;
+    margin: 13px;
+    color: black !important;
+    font-family: 'Roboto Condensed';
+}
+.nav-link:hover{
+    color: blue !important;
+}
+.active .nav-link{
+    color: blue !important;
+}
+.site-content{
+    background-image: url("pics/gym_4.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.site-title, .site-des{
+    color: white;
+    font-family: 'Righteous';
+}
+.site-title{
+    margin-top: 30%;
+    margin-bottom: 6%;
+    font-size: 50px;
+}
+.site-des{
+    font-size: 15px;
+    padding-left: 15%;
+}
+.btn-site1{
+    margin-left: 20%;
+    background-color: black;
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 40%;
+}
+.section-1 .heading-1{
+    margin-top: 8%;
+}
+.section-1 .heading-2{
+    margin-bottom: 5%;
+    font-size: 39px;
+}
+.section-1 p{
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    color: rgba(0,0,0.59);
+}
+.card{
+    width: 20rem;
+}
+.image-fluid img{
+     
+    max-width: 120%;
+    height: auto;
+ }
+ 
+ .section-2 .container-fluid{
+     margin-top: 5%;
+     background-image: url("pics/p.jpg");
+     background-size: cover;
+     background-attachment: fixed;
+ }
+ .section-2 .heading-1{
+     margin-top: 20%;
+     margin-bottom: 4%;
+     font-family: 'Righteous';
+     width: 80%;
+     color: whitesmoke;
+ }
+ .section-2 .para-1{
+     width: 80%;
+     font-family: 'Ubuntu';
+     margin-bottom: 7%;
+     color: whitesmoke;
+ }
+ .section-2 .btn{
+    margin-bottom: 15%;
+     width: 30%;
+     padding: 2% 5%;
+ }
+ .section-3{
+     margin-top: 6%;
+ }
+ .section-3 i{
+     color: brown;
+ }
+ .section-3 p{
+     color: rgba(0,0,0,0.59);
+ }
+ .section-4{
+     margin-top: 8%;
+ }
+ .section-4 .row .col-md-7, .col-md-5{
+     margin-top: 10%;
+     margin-bottom: 10%;
+ }
+ .section-4 a{
+     font-size: 40px;
+     color: darkturquoise;
+     text-decoration: none;
+ }
+ .section-4 .parap{
+    margin-top: 7%;
+    font-size: 23px;
+    font-family: 'Roboto Condensed';
+    color: white;
+ }
+ .social{
+     font-size: 40px;
+     color: #EF5651;
+ }
+
+ @media screen and (max-width: 768px){
+     .section-1 .card{
+         width: 14rem;
+     }
+     .section-4 .col-md-7 img{
+         width: 150px;
+     }
+ }
